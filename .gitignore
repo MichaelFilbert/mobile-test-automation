@@ -1,0 +1,6 @@
+node_modules/
+.appium/
+apps/*.apk
+reports/
+*.log
+.DS_Store
