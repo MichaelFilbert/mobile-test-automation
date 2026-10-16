@@ -132,7 +132,7 @@ docs/                           screenshots of the app under test
 
 ## CI
 
-The workflow in `.github/workflows/android.yml` runs on `ubuntu-latest`, enables KVM, caches npm and the AVD, runs lint and typecheck, downloads the APK (with a size and SHA-256 check), runs the suite on an API 34 x86_64 emulator, and uploads `reports/` as an artifact. I could not run it locally, so the first run on GitHub may need small adjustments.
+The workflow in `.github/workflows/android.yml` runs on `ubuntu-latest`, enables KVM, caches npm and the AVD, runs lint and typecheck, downloads the APK (with a size and SHA-256 check), runs the suite on an API 34 x86_64 emulator, and uploads `reports/` as an artifact. Each push runs all 17 tests on the emulator in about four minutes.
 
 ## Credits
 
