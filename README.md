@@ -96,7 +96,7 @@ Run one spec: `npx wdio run wdio.conf.ts --spec test/specs/login.spec.ts`
 ## Reports
 
 - The spec reporter prints results to the terminal.
-- JUnit XML is written to `reports/junit/results.xml` for CI.
+- JUnit XML is written to `reports/junit/` (one file per spec) for CI.
 - A screenshot of every failed test is saved to `reports/screenshots/`.
 - The Appium server log is in `reports/wdio-appium.log`.
 

@@ -52,6 +52,6 @@ export const config: Options.Testrunner & { capabilities: WebdriverIO.Capabiliti
 
   reporters: [
     'spec',
-    ['junit', { outputDir: path.join(env.reportsDir, 'junit'), outputFileFormat: () => 'results.xml' }],
+    ['junit', { outputDir: path.join(env.reportsDir, 'junit'), outputFileFormat: (options) => `results-${options.cid}.xml` }],
   ],
 };
