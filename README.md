@@ -1,7 +1,6 @@
 # Mobile test automation: WebdriverIO + Appium (Android)
 
-[![Android tests](https://github.com/OWNER/mobile-test-automation/actions/workflows/android.yml/badge.svg)](https://github.com/OWNER/mobile-test-automation/actions/workflows/android.yml)
-<!-- Replace OWNER with the GitHub username once the repo is pushed. -->
+[![Android tests](https://github.com/MichaelFilbert/mobile-test-automation/actions/workflows/android.yml/badge.svg)](https://github.com/MichaelFilbert/mobile-test-automation/actions/workflows/android.yml)
 
 An Android UI test suite written in TypeScript with WebdriverIO v10, Appium 3 and the UiAutomator2 driver. It runs against the open-source [WebdriverIO native demo app](https://github.com/webdriverio/native-demo-app) (MIT, v1.0.8).
 
